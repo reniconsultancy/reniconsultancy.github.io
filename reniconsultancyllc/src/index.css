@@ -21,6 +21,9 @@ a:hover {
   color: #ad6c3e;
 }
 
+a:visited {
+  color: #ece5df;
+}
 
 /* main layout */
 .container {
