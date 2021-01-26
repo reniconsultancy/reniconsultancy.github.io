@@ -39,3 +39,24 @@ button {
     font-size: medium;
     border-radius: 10px;
 }
+
+/* nav bar */
+#navbar ul { 
+	margin: 0; 
+	padding: 30px 10px; 
+    list-style-type: none;
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color:  #253546;
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #ad6c3e;
+	} 
