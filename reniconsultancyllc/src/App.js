@@ -14,9 +14,14 @@ import Mentorship from "./pages/Mentorship";
 import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
 
+//import components
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <Router>
+      <NavBar/>
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route exact path="/about" component={About}/>
@@ -25,6 +30,7 @@ function App() {
         <Route exact path="/contact" component={Contact}/>
         <Route component={NoMatch}/>
       </Switch>
+      <Footer/>
     </Router>
   );
 }
