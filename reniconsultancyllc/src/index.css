@@ -15,11 +15,16 @@ html, body {
 @media screen and (max-width: 600px) {
   html, body {
     line-height: normal;
+    font-size: medium;
   }
 }
 
 a {
   text-decoration: none;
+}
+
+img {
+  width: 90%;
 }
 
 a:hover {

@@ -1,3 +1,6 @@
+import Connectivity from "../assets/connectivity.png";
+import Analysis from "../assets/analysis.png";
+
 function Services() {
     return (
       <div>
@@ -5,7 +8,7 @@ function Services() {
         <div className="row">
             <div className="column">
               <div className="container">
-                RENI
+                <img src={Connectivity} />
               </div>
             </div>
             <div className="column beige">
@@ -37,7 +40,16 @@ function Services() {
             </div>
           </div>
 
-          <div className="container"></div>
+          <div className="container">
+            <div className="row">
+              <div className="column">
+                <img src={Analysis} />
+              </div>
+              <div className="column">
+                <div>At RENI, we rely on community partnership and shared expertise to help organizations and agencies reach their goals through effective strategic planning, program development and implementation, and evaluations.</div>
+              </div>
+            </div>
+          </div>
 
       </div>
     );
