@@ -19,7 +19,7 @@ function Home() {
           <div>Although many organizations have begun using statistics few have enough data to guide planning, management systems, or redirect and redesign underperforming programs or services. The real data from National Center on Charitable Statistics reveals that approximately <strong>30% of nonprofits fail</strong> to exist after 10 years, and according to Forbes, over half of all nonprofits that are chartered are destined to fail or stall within a few years due to leadership issues, lack of a strategic plan, lack of relevant and accessible services, among other things.</div>
         </div>
 
-        <div className="container">
+        <div className="container" style={{alignItems: "center"}}>
           <div>At RENI, we rely on community partnership and shared expertise to help organizations and agencies reach their goals through effective strategic planning, program development and implementation, and evaluations.</div>
           <br/> <br/>
           <button className="orange">Learn more about what we do.</button>

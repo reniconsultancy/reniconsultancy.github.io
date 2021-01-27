@@ -45,6 +45,7 @@ button {
     padding: 15px;
     font-size: medium;
     border-radius: 10px;
+    width: fit-content;
 }
 
 /* nav bar */
@@ -101,8 +102,8 @@ button {
     }
 }
 
-@media screen and (max-width: 900px) {
-    .goals {
+@media screen and (max-width: 1290px) {
+    .smallFont {
         font-size: small;
     }
 }

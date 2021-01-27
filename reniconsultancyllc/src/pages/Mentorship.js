@@ -1,6 +1,11 @@
 function Mentorship() {
     return (
-      <div></div>
+      <div>
+        <div className="container">
+          <div> <strong style={{color: "#ad6c3e"}}>We are working on something fantastic!</strong> <br/> <br/>
+          Follow us on <a href="" style={{color: "#bd9e82"}}>Twitter</a> for more updates on our Mentorship Program.</div>
+        </div>
+      </div>
     );
   }
   

@@ -4,11 +4,18 @@ html, body {
   color:  #253546;
   font-family: "Montserrat",sans-serif;
   letter-spacing: .09em;
+  line-height: 1.6;
   font-weight: 300;
   font-size: large;
   transition: 0.5s;
   height: 100vh;
   width: 100vw;
+}
+
+@media screen and (max-width: 600px) {
+  html, body {
+    line-height: normal;
+  }
 }
 
 a {
@@ -30,7 +37,6 @@ a:visited {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   height: 100vh;
   width: 100%;
 }
