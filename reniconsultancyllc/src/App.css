@@ -21,6 +21,13 @@
     }
 }
 
+/* DISAPPEAR on height */
+@media screen and (max-height: 550px) {
+    .disHeight {
+        display: none;
+    }
+}
+
 /* two column layout */
 .row {
     display: flex;
@@ -104,6 +111,21 @@ button {
 
 @media screen and (max-width: 1290px) {
     .smallFont {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 1157px) {
+    .smallFont {
         font-size: small;
+        font-weight: normal;
+    }
+}
+
+
+/* height media stuff */
+@media screen and (max-height: 550px) {
+    .smallFont {
+        display: none;
     }
 }
