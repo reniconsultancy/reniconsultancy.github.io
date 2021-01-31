@@ -3,7 +3,7 @@ import Reni from "../assets/reni.png";
 
 function NavBar() {
     return (
-      <div className="row" id="navbar"> 
+      <div className="row navy" id="navbar"> 
         <div className="column">
           <Link to="/"><img src={Reni} style={{width: "100px"}}/></Link> 
         </div>
