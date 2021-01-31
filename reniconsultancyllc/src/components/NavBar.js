@@ -5,7 +5,7 @@ function NavBar() {
     return (
       <div className="row" id="navbar"> 
         <div className="column">
-          <Link to="/"><img src={Reni} style={{width: "100px"}}/></Link> 
+          <Link to="/"><img src={Reni} style={{width: "150px"}}/></Link> 
         </div>
         <div className="column" style={{textAlign: "right"}}>
           <ul> 
