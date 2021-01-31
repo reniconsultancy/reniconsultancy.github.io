@@ -129,3 +129,65 @@ button {
         display: none;
     }
 }
+
+/* Contact */
+.contact-form {
+	padding: 0px 24px 80px 24px;
+	margin: 12px 48px;
+    border-radius: 4px;
+    color: #253546;
+}
+
+label {
+	font-size: 0.85em;
+    margin-left: 12px;
+    padding-right: 12px;
+}
+
+/* Add styles to 'input' and 'textarea' selectors */
+
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #253546;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Add styles to show 'focus' of selector */
+
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid #AD6C3E;
+}
+
+/* Add styles to the submit button */
+
+input[type=submit] {
+	background: #AD6C3E;
+	margin: 0 auto;
+	outline: 0;
+	color: #ECE5DF;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Add styles for 'focus' property */
+
+input[type=submit]:focus {
+	background: #AD6C3E;
+    color: #ECE5DF;
+}
+
+/* Style 'hover' property */
+
+input[type=submit]:hover {
+	background: #BD9E82;
+}
