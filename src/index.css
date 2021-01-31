@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color:  #253546;
+  font-family: "Montserrat",sans-serif;
+  letter-spacing: .09em;
+  line-height: 1.6;
+  font-weight: 300;
+  font-size: large;
+  transition: 0.5s;
+  height: 100vh;
+  width: 100vw;
+}
+
+@media screen and (max-width: 600px) {
+  html, body {
+    line-height: normal;
+    font-size: medium;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 90%;
+}
+
+a:hover {
+  text-decoration: underline;
+  animation: forwards;
+  color: #ad6c3e;
+}
+
+a:visited {
+  color: #ece5df;
+}
+
+/* main layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container > div {
+  padding: 2em;
+}
