@@ -19,12 +19,13 @@ html, body {
   }
 }
 
-a {
-  text-decoration: none;
-}
-
 img {
   width: 90%;
+}
+
+a {
+  text-decoration: none;
+  color: #ece5df !important;
 }
 
 a:hover {
@@ -34,7 +35,7 @@ a:hover {
 }
 
 a:visited {
-  color: #ece5df;
+  color: #ece5df !important;
 }
 
 /* main layout */
