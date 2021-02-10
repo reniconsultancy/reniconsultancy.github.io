@@ -1,7 +1,7 @@
 import './App.css';
 
 import {
-  BrowserRouter,
+  HashRouter,
   Switch,
   Route,
 } from "react-router-dom";
@@ -20,7 +20,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL + '/'}>
+    <HashRouter basename={process.env.PUBLIC_URL + '/'}>
       <NavBar/>
       <Switch>
         <Route exact path="/" component={Home}/>
@@ -31,7 +31,7 @@ function App() {
         <Route component={NoMatch}/>
       </Switch>
       <Footer/>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
