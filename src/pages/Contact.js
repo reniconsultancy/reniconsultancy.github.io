@@ -18,9 +18,8 @@ export default function Contact() {
 
   return (
     <div className="container">
-      <div> <strong style={{color: "#ad6c3e"}}>Ready to connect?</strong> <br/> <br/>
-      Set up a free consultation with us.</div>
       <div>
+        <h3 style={{fontWeight: "lighter"}}>Set up a free consultation with us:</h3>
         <form className="contact-form" onSubmit={sendEmail}>
           <input type="hidden" name="contact_number" />
           <label>Name</label>
@@ -28,7 +27,7 @@ export default function Contact() {
           <label>Email</label>
           <input type="email" name="user_email" />
           <label>Please include any services you already know you are interested in</label>
-          <textarea name="message" />
+          <textarea name="message"  style={{padding: "30px"}}/>
           <input type="submit" value="Send" />
         </form>
       </div>
